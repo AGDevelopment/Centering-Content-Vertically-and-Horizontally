@@ -1,0 +1,33 @@
+﻿
+/* Center content vertically and horizontally */
+
+
+.centeredContent_Container {
+    width: 100%; /* width of container */
+    height: 600px; /* height of container */
+    padding: 100px; /* distance from boundries */
+    border: 1px solid green; /* proof / visual verification */
+}
+
+
+.centeredContent {
+    width: 100%; /* width of content container - 100% minus padding */
+    margin: auto auto; /* 'auto' or 'auto 0px' works */
+    position: relative; /* positioning inner Div */
+    left: 50%; /* centering inner Div */
+    top: 50%; /* centering inner Div */
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 1px solid orange; /* proof / visual verification */
+}
+
+
+/* Notes */
+
+/*
+    * Container within a container
+    * Text alignment unaffected - default left aligned
+    * Border for visual testing (proof) - not required
+*/
