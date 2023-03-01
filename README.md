@@ -1,7 +1,7 @@
 # Centering-Content-Vertically-and-Horizontally
 Centering Content Vertically and Horizontally
 
-NNotes
+Notes
 
 * Container within a container
 * Text alignment unaffected - default left aligned
